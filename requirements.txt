@@ -1,0 +1,4 @@
+Flask
+firebase-admin
+google-genai
+gunicorn
