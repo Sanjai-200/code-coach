@@ -32,7 +32,7 @@ import firebase_config
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", secrets.token_hex(32)) 
 
-GEMINI_MODEL = "gemini-3.6-flash"  # latest generally available Gemini model
+GEMINI_MODEL = "gemini-3.1-flash-lite"  # latest generally available Gemini model
 
 MAX_HISTORY_MESSAGES = 20  # keep the last N messages (user+assistant combined)
 
